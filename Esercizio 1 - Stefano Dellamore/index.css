@@ -1,0 +1,86 @@
+body{
+    background-image: url(Immagini/background.jpg);
+    background-size: cover;
+}
+
+/* Logo */ 
+
+div.background {
+    text-align: center;
+}
+  
+div.transbox {
+    margin: auto;
+    margin-top: 50px;
+    width: 1400px;
+    height: 1000px;
+    border-radius: 2%;
+    background-color:rgba(0, 0, 0, 0.7);
+    
+  }
+div.transbox img {
+    padding-top: 30px;
+    width: 330px;
+    height: 130px;
+}
+  
+div.transbox h1 {
+    color: #00DD00;
+}
+
+/* Barra di Navigazione */
+
+div.scelte {
+    margin: auto;
+    padding: 15px 15px;
+    width: 800px;
+    background-color: #00DD00;
+}
+
+/* Box informazioni */
+
+div.box-testo {
+    width: 830px;
+    height: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.info-monopattini ul{
+    list-style-type: square;
+    padding-left: 8px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.freccia {
+    color: white;
+}
+.freccia:before {
+   content: "\21A6";
+}
+
+div.info-monopattini {
+    color: white;
+}
+
+.stato-carica1 {
+    width: 400px;
+    height: 50px;
+    background-color: orange;
+}
+
+.stato-carica2 {
+    width: 700px;
+    height: 50px;
+    background-color: green;
+}
+
+.stato-carica3 {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+}
+
+
+
